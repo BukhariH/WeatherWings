@@ -1,0 +1,194 @@
+THIS IS THE OLD TABLE	
+
+	<table border="0" width = "412" align = "center">
+					<tr>
+					   <th colspan="3" align = "left"><font size="4">10 Day Forecast</font></th>
+					</tr>
+					<tr>
+					   <th > {this.state.fTitle0} </th><td><img src={this.state.fIcon0} width="20" height="20" /></td><td>{this.state.fDis0}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle1}</th><td><img src={this.state.fIcon1} width="20" height="20" /></td><td>{this.state.fDis1}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle2}</th><td><img src={this.state.fIcon2} width="20" height="20" /></td><td>{this.state.fDis2}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle3}</th><td><img src={this.state.fIcon3} width="20" height="20" /></td><td>{this.state.fDis3}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle4}</th><td><img src={this.state.fIcon4} width="20" height="20" /></td><td>{this.state.fDis4}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle5}</th><td><img src={this.state.fIcon5} width="20" height="20" /></td><td>{this.state.fDis5}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle6}</th><td><img src={this.state.fIcon6} width="20" height="20" /></td><td>{this.state.fDis6}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle7}</th><td><img src={this.state.fIcon7} width="20" height="20" /></td><td>{this.state.fDis7}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle8}</th><td><img src={this.state.fIcon8} width="20" height="20" /></td><td>{this.state.fDis8}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle9}</th><td><img src={this.state.fIcon9} width="20" height="20" /></td><td>{this.state.fDis9}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle10}</th><td><img src={this.state.fIcon10} width="20" height="20" /></td><td>{this.state.fDis10}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle11}</th><td><img src={this.state.fIcon11} width="20" height="20" /></td><td>{this.state.fDis11}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle12}</th><td><img src={this.state.fIcon12} width="20" height="20" /></td><td>{this.state.fDis12}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle13}</th><td><img src={this.state.fIcon13} width="20" height="20" /></td><td>{this.state.fDis13}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle14}</th><td><img src={this.state.fIcon14} width="20" height="20" /></td><td>{this.state.fDis14}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle15}</th><td><img src={this.state.fIcon15} width="20" height="20" /></td><td>{this.state.fDis15}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle16}</th><td><img src={this.state.fIcon16} width="20" height="20" /></td><td>{this.state.fDis16}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle17}</th><td><img src={this.state.fIcon17} width="20" height="20" /></td><td>{this.state.fDis17}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle18}</th><td><img src={this.state.fIcon18} width="20" height="20" /></td><td>{this.state.fDis18}</td>
+					</tr>
+					<tr>
+					   <th>{this.state.fTitle19}</th><td><img src={this.state.fIcon19} width="20" height="20" /></td><td>{this.state.fDis19}</td>
+					</tr>
+				</table>
+
+
+//10 DAY TEXT FORECAST VARIABLES
+
+		var forecastTitle0 = parsed_json['forecast']['txt_forecast']['forecastday'][0]['title'];
+		var forecastIcon0 = parsed_json['forecast']['txt_forecast']['forecastday'][0]['icon_url'];
+		var forecastDescription0 = parsed_json['forecast']['txt_forecast']['forecastday'][0]['fcttext_metric'];
+		var forecastIcon1 = parsed_json['forecast']['txt_forecast']['forecastday'][1]['icon_url'];
+		var forecastTitle1 = parsed_json['forecast']['txt_forecast']['forecastday'][1]['title'];
+		var forecastDescription1 = parsed_json['forecast']['txt_forecast']['forecastday'][1]['fcttext_metric'];
+		var forecastIcon2 = parsed_json['forecast']['txt_forecast']['forecastday'][2]['icon_url'];
+		var forecastTitle2 = parsed_json['forecast']['txt_forecast']['forecastday'][2]['title'];
+		var forecastDescription2 = parsed_json['forecast']['txt_forecast']['forecastday'][2]['fcttext_metric'];
+		var forecastIcon3 = parsed_json['forecast']['txt_forecast']['forecastday'][3]['icon_url'];
+		var forecastTitle3 = parsed_json['forecast']['txt_forecast']['forecastday'][3]['title'];
+		var forecastDescription3 = parsed_json['forecast']['txt_forecast']['forecastday'][3]['fcttext_metric'];
+		var forecastIcon4 = parsed_json['forecast']['txt_forecast']['forecastday'][4]['icon_url'];
+		var forecastTitle4 = parsed_json['forecast']['txt_forecast']['forecastday'][4]['title'];
+		var forecastDescription4 = parsed_json['forecast']['txt_forecast']['forecastday'][4]['fcttext_metric'];
+		var forecastIcon5 = parsed_json['forecast']['txt_forecast']['forecastday'][5]['icon_url'];
+		var forecastTitle5 = parsed_json['forecast']['txt_forecast']['forecastday'][5]['title'];
+		var forecastDescription5 = parsed_json['forecast']['txt_forecast']['forecastday'][5]['fcttext_metric'];
+		var forecastIcon6 = parsed_json['forecast']['txt_forecast']['forecastday'][6]['icon_url'];
+		var forecastTitle6 = parsed_json['forecast']['txt_forecast']['forecastday'][6]['title'];
+		var forecastDescription6 = parsed_json['forecast']['txt_forecast']['forecastday'][6]['fcttext_metric'];
+		var forecastIcon7 = parsed_json['forecast']['txt_forecast']['forecastday'][7]['icon_url'];
+		var forecastTitle7 = parsed_json['forecast']['txt_forecast']['forecastday'][7]['title'];
+		var forecastDescription7 = parsed_json['forecast']['txt_forecast']['forecastday'][7]['fcttext_metric'];
+		var forecastIcon8 = parsed_json['forecast']['txt_forecast']['forecastday'][8]['icon_url'];
+		var forecastTitle8 = parsed_json['forecast']['txt_forecast']['forecastday'][8]['title'];
+		var forecastDescription8 = parsed_json['forecast']['txt_forecast']['forecastday'][8]['fcttext_metric'];
+		var forecastIcon9 = parsed_json['forecast']['txt_forecast']['forecastday'][9]['icon_url'];
+		var forecastTitle9 = parsed_json['forecast']['txt_forecast']['forecastday'][9]['title'];
+		var forecastDescription9 = parsed_json['forecast']['txt_forecast']['forecastday'][9]['fcttext_metric'];
+		var forecastIcon10 = parsed_json['forecast']['txt_forecast']['forecastday'][10]['icon_url'];
+		var forecastTitle10 = parsed_json['forecast']['txt_forecast']['forecastday'][10]['title'];
+		var forecastDescription10 = parsed_json['forecast']['txt_forecast']['forecastday'][10]['fcttext_metric'];
+		var forecastIcon11 = parsed_json['forecast']['txt_forecast']['forecastday'][11]['icon_url'];
+		var forecastTitle11 = parsed_json['forecast']['txt_forecast']['forecastday'][11]['title'];
+		var forecastDescription11 = parsed_json['forecast']['txt_forecast']['forecastday'][11]['fcttext_metric'];
+		var forecastIcon12 = parsed_json['forecast']['txt_forecast']['forecastday'][12]['icon_url'];
+		var forecastTitle12 = parsed_json['forecast']['txt_forecast']['forecastday'][12]['title'];
+		var forecastDescription12 = parsed_json['forecast']['txt_forecast']['forecastday'][12]['fcttext_metric'];
+		var forecastIcon13 = parsed_json['forecast']['txt_forecast']['forecastday'][13]['icon_url'];
+		var forecastTitle13 = parsed_json['forecast']['txt_forecast']['forecastday'][13]['title'];
+		var forecastDescription13 = parsed_json['forecast']['txt_forecast']['forecastday'][13]['fcttext_metric'];
+		var forecastIcon14 = parsed_json['forecast']['txt_forecast']['forecastday'][14]['icon_url'];
+		var forecastTitle14 = parsed_json['forecast']['txt_forecast']['forecastday'][14]['title'];
+		var forecastDescription14 = parsed_json['forecast']['txt_forecast']['forecastday'][14]['fcttext_metric'];
+		var forecastIcon15 = parsed_json['forecast']['txt_forecast']['forecastday'][15]['icon_url'];
+		var forecastTitle15 = parsed_json['forecast']['txt_forecast']['forecastday'][15]['title'];
+		var forecastDescription15 = parsed_json['forecast']['txt_forecast']['forecastday'][15]['fcttext_metric'];
+		var forecastIcon16 = parsed_json['forecast']['txt_forecast']['forecastday'][16]['icon_url'];
+		var forecastTitle16 = parsed_json['forecast']['txt_forecast']['forecastday'][16]['title'];
+		var forecastDescription16 = parsed_json['forecast']['txt_forecast']['forecastday'][16]['fcttext_metric'];
+		var forecastIcon17 = parsed_json['forecast']['txt_forecast']['forecastday'][17]['icon_url'];
+		var forecastTitle17 = parsed_json['forecast']['txt_forecast']['forecastday'][17]['title'];
+		var forecastDescription17 = parsed_json['forecast']['txt_forecast']['forecastday'][17]['fcttext_metric'];
+		var forecastIcon18 = parsed_json['forecast']['txt_forecast']['forecastday'][18]['icon_url'];
+		var forecastTitle18 = parsed_json['forecast']['txt_forecast']['forecastday'][18]['title'];
+		var forecastDescription18 = parsed_json['forecast']['txt_forecast']['forecastday'][18]['fcttext_metric'];
+		var forecastIcon19 = parsed_json['forecast']['txt_forecast']['forecastday'][19]['icon_url'];
+		var forecastTitle19 = parsed_json['forecast']['txt_forecast']['forecastday'][19]['title'];
+		var forecastDescription19 = parsed_json['forecast']['txt_forecast']['forecastday'][19]['fcttext_metric'];
+
+SETTING THE STATES TO BE RENDERED LATER ON.
+
+			fTitle0: forecastTitle0,
+			fIcon0: forecastIcon0,
+			fDis0: forecastDescription0,
+			fTitle1: forecastTitle1,
+			fIcon1: forecastIcon1,
+			fDis1: forecastDescription1,
+			fIcon2: forecastIcon2,
+			fTitle2: forecastTitle2,
+			fDis2: forecastDescription2,
+			fIcon3: forecastIcon3,
+			fTitle3: forecastTitle3,
+			fDis3: forecastDescription3,
+			fIcon4: forecastIcon4,
+			fTitle4: forecastTitle4,
+			fDis4: forecastDescription4,
+			fIcon5: forecastIcon5,
+			fTitle5: forecastTitle5,
+			fDis5: forecastDescription5,
+			fIcon6: forecastIcon6,
+			fTitle6: forecastTitle6,
+			fDis6: forecastDescription6,
+			fIcon7: forecastIcon7,
+			fTitle7: forecastTitle7,
+			fDis7: forecastDescription7,
+			fIcon8: forecastIcon8,
+			fTitle8: forecastTitle8,
+			fDis8: forecastDescription8,
+			fIcon9: forecastIcon9,
+			fTitle9: forecastTitle9,
+			fDis9: forecastDescription9,
+			fIcon10: forecastIcon10,
+			fTitle10: forecastTitle10,
+			fDis10: forecastDescription10,
+			fIcon11: forecastIcon11,
+			fTitle11: forecastTitle11,
+			fDis11: forecastDescription11,
+			fIcon12: forecastIcon12,
+			fTitle12: forecastTitle12,
+			fDis12: forecastDescription12,
+			fIcon13: forecastIcon13,
+			fTitle13: forecastTitle13,
+			fDis13: forecastDescription13,
+			fIcon14: forecastIcon14,
+			fTitle14: forecastTitle14,
+			fDis14: forecastDescription14,
+			fIcon15: forecastIcon15,
+			fTitle15: forecastTitle15,
+			fDis15: forecastDescription15,
+			fIcon16: forecastIcon16,
+			fTitle16: forecastTitle16,
+			fDis16: forecastDescription16,
+			fIcon17: forecastIcon17,
+			fTitle17: forecastTitle17,
+			fDis17: forecastDescription17,
+			fIcon18: forecastIcon18,
+			fTitle18: forecastTitle18,
+			fDis18: forecastDescription18,
+			fIcon19: forecastIcon19,
+			fTitle19: forecastTitle19,
+			fDis19: forecastDescription19,

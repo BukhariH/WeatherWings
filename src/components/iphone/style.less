@@ -1,0 +1,122 @@
+@import '~style/helpers';
+
+h2 {
+   border-bottom:solid #fff 1px;
+}
+
+
+.container { 
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	width: 414px;
+	height: 2000px;
+	text-align: center;
+	margin: 0 auto;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size: cover;
+	/*background-image: url('https://farm4.staticflickr.com/3923/33220484761_8ee993d6b8_b.jpg');*/
+	background-repeat: no-repeat;
+	transition: background-image 2s ease-in;
+}
+
+
+.box {
+	background-color: rgba(0,0,0,.54);
+	margin: 10px;
+	flex: 1 1 auto;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis:0%;
+	color: #fff;
+	transition: background-color 2s ease;
+	transition: color 2s ease-in;
+}
+
+.locationPicker{
+	height: 60px;
+	background-color: rgba(0,0,0,.25);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: background-color 2s ease;
+	transition: color 2s ease-in;
+	float:left;
+}
+
+.locationPicker input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+  width: 230px;
+  margin: 10px;
+  float:left;
+}
+
+.locationPicker button {
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  float:right;
+}
+
+.locationPicker input[type="text"]:focus{
+  border-bottom: solid 2px #969696;
+}
+
+.header {
+	padding-top: 525px;
+	height: 734px;
+}
+.details {
+	flex: 4;
+}
+.city {
+	flex: 1;
+	font-size: 1.7em;
+	font-weight: 400;	
+}
+.conditions {
+	flex: 1;
+	font-size: 1em;
+}
+.temperature {
+	flex: 2;
+	margin-top: 0;
+	font-size: 4.8em;
+	font-weight: 300;
+	letter-spacing: -12px;
+}
+
+.filled:after {
+	content: "°";
+	margin: 0 0 0 1rem;
+	font-size: 0.5em;
+	font-weight: 100;
+	display: inline-block;
+	padding-top: 10px;
+	vertical-align: top;
+}
+
+.mainInfo {
+	display: flex;
+	flex-direction: row;
+	background-color: rgba(0,0,0,.25);
+	transition: background-color 2s ease;
+	transition: color 2s ease-in;
+}
+
+.mainInfoDetails {
+	flex: 1;
+}
+
+.mainInfoChart {
+	flex: 1;
+}

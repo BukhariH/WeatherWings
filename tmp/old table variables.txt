@@ -1,0 +1,123 @@
+		var simpleDay0 = parsed_json['forecast']['txt_forecast']['forecastday'][0]['title'];
+		var simpleIcon0 = parsed_json['forecast']['simpleforecast']['forecastday'][0]['icon_url'];
+		var simpleWindHigh0 = parsed_json['forecast']['simpleforecast']['forecastday'][0]['maxwind']['mph'];
+		var simpleWindAvg0 = parsed_json['forecast']['simpleforecast']['forecastday'][0]['avewind']['mph'];
+		var simpleTempMax0 = parsed_json['forecast']['simpleforecast']['forecastday'][0]['high']['celsius'];
+		var simpleTempLow0 = parsed_json['forecast']['simpleforecast']['forecastday'][0]['low']['celsius'];
+		var simpleDay1 = parsed_json['forecast']['txt_forecast']['forecastday'][2]['title'];
+		var simpleIcon1 = parsed_json['forecast']['simpleforecast']['forecastday'][1]['icon_url'];
+		var simpleWindHigh1 = parsed_json['forecast']['simpleforecast']['forecastday'][1]['maxwind']['mph'];
+		var simpleWindAvg1 = parsed_json['forecast']['simpleforecast']['forecastday'][1]['avewind']['mph'];
+		var simpleTempMax1 = parsed_json['forecast']['simpleforecast']['forecastday'][1]['high']['celsius'];
+		var simpleTempLow1 = parsed_json['forecast']['simpleforecast']['forecastday'][1]['low']['celsius'];
+		var simpleDay2 = parsed_json['forecast']['txt_forecast']['forecastday'][4]['title'];
+		var simpleIcon32 = parsed_json['forecast']['simpleforecast']['forecastday'][2]['icon_url'];
+		var simpleWindHigh2 = parsed_json['forecast']['simpleforecast']['forecastday'][2]['maxwind']['mph'];
+		var simpleWindAvg2 = parsed_json['forecast']['simpleforecast']['forecastday'][2]['avewind']['mph'];
+		var simpleTempMax2 = parsed_json['forecast']['simpleforecast']['forecastday'][2]['high']['celsius'];
+		var simpleTempLow2 = parsed_json['forecast']['simpleforecast']['forecastday'][2]['low']['celsius'];
+		var simpleDay3 = parsed_json['forecast']['txt_forecast']['forecastday'][6]['title'];
+		var simpleIcon3 = parsed_json['forecast']['simpleforecast']['forecastday'][3]['icon_url'];
+		var simpleWindHigh3 = parsed_json['forecast']['simpleforecast']['forecastday'][3]['maxwind']['mph'];
+		var simpleWindAvg3 = parsed_json['forecast']['simpleforecast']['forecastday'][3]['avewind']['mph'];
+		var simpleTempMax3 = parsed_json['forecast']['simpleforecast']['forecastday'][3]['high']['celsius'];
+		var simpleTempLow3 = parsed_json['forecast']['simpleforecast']['forecastday'][3]['low']['celsius'];
+		var simpleDay4 = parsed_json['forecast']['txt_forecast']['forecastday'][8]['title'];
+		var simpleIcon4 = parsed_json['forecast']['simpleforecast']['forecastday'][4]['icon_url'];
+		var simpleWindHigh4 = parsed_json['forecast']['simpleforecast']['forecastday'][4]['maxwind']['mph'];
+		var simpleWindAvg4 = parsed_json['forecast']['simpleforecast']['forecastday'][4]['avewind']['mph'];
+		var simpleTempMax4 = parsed_json['forecast']['simpleforecast']['forecastday'][4]['high']['celsius'];
+		var simpleTempLow4 = parsed_json['forecast']['simpleforecast']['forecastday'][4]['low']['celsius'];
+		var simpleDay5 = parsed_json['forecast']['txt_forecast']['forecastday'][10]['title'];
+		var simpleIcon5 = parsed_json['forecast']['simpleforecast']['forecastday'][5]['icon_url'];
+		var simpleWindHigh5 = parsed_json['forecast']['simpleforecast']['forecastday'][5]['maxwind']['mph'];
+		var simpleWindAvg5 = parsed_json['forecast']['simpleforecast']['forecastday'][5]['avewind']['mph'];
+		var simpleTempMax5 = parsed_json['forecast']['simpleforecast']['forecastday'][5]['high']['celsius'];
+		var simpleTempLow5 = parsed_json['forecast']['simpleforecast']['forecastday'][5]['low']['celsius'];
+		var simpleDay6 = parsed_json['forecast']['txt_forecast']['forecastday'][12]['title'];
+		var simpleIcon6 = parsed_json['forecast']['simpleforecast']['forecastday'][6]['icon_url'];
+		var simpleWindHigh6 = parsed_json['forecast']['simpleforecast']['forecastday'][6]['maxwind']['mph'];
+		var simpleWindAvg6 = parsed_json['forecast']['simpleforecast']['forecastday'][6]['avewind']['mph'];
+		var simpleTempMax6 = parsed_json['forecast']['simpleforecast']['forecastday'][6]['high']['celsius'];
+		var simpleTempLow6 = parsed_json['forecast']['simpleforecast']['forecastday'][6]['low']['celsius'];
+		var simpleDay7 = parsed_json['forecast']['txt_forecast']['forecastday'][14]['title'];
+		var simpleIcon7 = parsed_json['forecast']['simpleforecast']['forecastday'][7]['icon_url'];
+		var simpleWindHigh7 = parsed_json['forecast']['simpleforecast']['forecastday'][7]['maxwind']['mph'];
+		var simpleWindAvg7 = parsed_json['forecast']['simpleforecast']['forecastday'][7]['avewind']['mph'];
+		var simpleTempMax7 = parsed_json['forecast']['simpleforecast']['forecastday'][7]['high']['celsius'];
+		var simpleTempLow7 = parsed_json['forecast']['simpleforecast']['forecastday'][7]['low']['celsius'];
+		var simpleDay8 = parsed_json['forecast']['txt_forecast']['forecastday'][16]['title'];
+		var simpleIcon8 = parsed_json['forecast']['simpleforecast']['forecastday'][8]['icon_url'];
+		var simpleWindHigh8 = parsed_json['forecast']['simpleforecast']['forecastday'][8]['maxwind']['mph'];
+		var simpleWindAvg8 = parsed_json['forecast']['simpleforecast']['forecastday'][8]['avewind']['mph'];
+		var simpleTempMax8 = parsed_json['forecast']['simpleforecast']['forecastday'][8]['high']['celsius'];
+		var simpleTempLow8 = parsed_json['forecast']['simpleforecast']['forecastday'][8]['low']['celsius'];
+		var simpleDay9 = parsed_json['forecast']['txt_forecast']['forecastday'][18]['title'];
+		var simpleIcon9 = parsed_json['forecast']['simpleforecast']['forecastday'][9]['icon_url'];
+		var simpleWindHigh9 = parsed_json['forecast']['simpleforecast']['forecastday'][9]['maxwind']['mph'];
+		var simpleWindAvg9 = parsed_json['forecast']['simpleforecast']['forecastday'][9]['avewind']['mph'];
+		var simpleTempMax9 = parsed_json['forecast']['simpleforecast']['forecastday'][9]['high']['celsius'];
+		var simpleTempLow9 = parsed_json['forecast']['simpleforecast']['forecastday'][9]['low']['celsius'];
+
+
+
+			sDay0: simpleDay0,
+			sI0: simpleIcon0,
+			sWH0: simpleWindHigh0,
+			sWA0: simpleWindAvg0,
+			sTM0: simpleTempMax0,
+			sTL0: simpleTempLow0,
+			sDay1: simpleDay1,
+			sI1: simpleIcon1,
+			sWH1: simpleWindHigh1,
+			sWA1: simpleWindAvg1,
+			sTM1: simpleTempMax1,
+			sTL1: simpleTempLow1,
+			sDay2: simpleDay2,
+			sI2: simpleIcon2,
+			sWH2: simpleWindHigh2,
+			sWA2: simpleWindAvg2,
+			sTM2: simpleTempMax2,
+			sTL2: simpleTempLow2,
+			sDay3: simpleDay3,
+			sI3: simpleIcon3,
+			sWH3: simpleWindHigh3,
+			sWA3: simpleWindAvg3,
+			sTM3: simpleTempMax3,
+			sTL3: simpleTempLow3,
+			sDay4: simpleDay4,
+			sI4: simpleIcon4,
+			sWH4: simpleWindHigh4,
+			sWA4: simpleWindAvg4,
+			sTM4: simpleTempMax4,
+			sTL4: simpleTempLow4,
+			sDay5: simpleDay5,
+			sI5: simpleIcon5,
+			sWH5: simpleWindHigh5,
+			sWA5: simpleWindAvg5,
+			sTM5: simpleTempMax5,
+			sTL5: simpleTempLow5,
+			sDay6: simpleDay6,
+			sI6: simpleIcon6,
+			sWH6: simpleWindHigh6,
+			sWA6: simpleWindAvg6,
+			sTM6: simpleTempMax6,
+			sTL6: simpleTempLow6,
+			sDay7: simpleDay7,
+			sI7: simpleIcon7,
+			sWH7: simpleWindHigh7,
+			sWA7: simpleWindAvg7,
+			sTM7: simpleTempMax7,
+			sTL7: simpleTempLow7,
+			sDay8: simpleDay8,
+			sI8: simpleIcon8,
+			sWH8: simpleWindHigh8,
+			sWA8: simpleWindAvg8,
+			sTM8: simpleTempMax8,
+			sTL8: simpleTempLow8,
+			sDay9: simpleDay9,
+			sI9: simpleIcon9,
+			sWH9: simpleWindHigh9,
+			sWA9: simpleWindAvg9,
+			sTM9: simpleTempMax9,
+			sTL9: simpleTempLow9,

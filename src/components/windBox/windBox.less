@@ -1,0 +1,75 @@
+.windmillCont{
+margin-top: 40px;
+position:relative;
+}
+
+.pole {
+ position:absolute; 
+ top: 34px;
+ left: 25px; 
+ z-index: 1;
+ height: 65px;
+ width: 12px;
+}
+
+.spinFast {
+  position:absolute; 
+  top: 0px; 
+  left: 0px;
+   z-index: 3;
+    /*margin: 20px;*/
+    width: 60px; 
+    height: 60px;
+    animation: spin 1.5s infinite linear;   
+}
+
+.spinSlow {
+  position:absolute; 
+  top: 0px; 
+  left: 0px;
+   z-index: 3;
+    /*margin: 20px;*/
+    width: 60px; 
+    height: 60px;
+    animation: spin 3s infinite linear;   
+}
+
+.pole2 {
+ position:absolute; 
+ top: 34px;
+ left: 65px; 
+ z-index: 1;
+ height: 55px;
+ width: 12px;
+}
+
+.spinFast2 {
+  position:absolute; 
+  top: 0px; 
+  left: 40px;
+   z-index: 3;
+    /*margin: 20px;*/
+    width: 60px; 
+    height: 60px;
+    animation: spin 1.5s infinite linear;   
+}
+
+.spinSlow2 {
+  position:absolute; 
+  top: 0px; 
+  left: 40px;
+   z-index: 3;
+    /*margin: 20px;*/
+    width: 60px; 
+    height: 60px;
+    animation: spin 3s infinite linear;   
+}
+
+.upArrow {
+  width: 64px;
+}
+
+@keyframes spin {
+  0%  {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);} 
+}
